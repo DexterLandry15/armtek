@@ -321,6 +321,7 @@ nav {
 
 footer {
 	margin: 32px 0;
+	margin-bottom: 0;
 	padding: 32px 0;
 	.container {
 		hr {
@@ -344,6 +345,30 @@ footer {
 					}
 				}
 			}
+			.github {
+				margin-top: 16px;
+				padding: 8px;
+			}
 		}
 	}
+}
+
+#source {
+	margin-top: 0;
+	.container {
+		div {
+			padding: 12px 0;
+			display: flex;
+			justify-content: center;
+			a {
+				padding: 8px;
+				&:hover {
+					img {
+						filter: brightness(0) invert(1);
+					}
+				}
+			}
+		}
+	}
+
 }
